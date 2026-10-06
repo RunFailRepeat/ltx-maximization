@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "id": "synthetic-a",
+    "context": {
+      "model_revision": "synthetic-model-v1",
+      "workload_id": "synthetic-scene",
+      "hardware_id": "synthetic-device",
+      "runtime_revision": "synthetic-runtime-v1"
+    },
+    "factors": {
+      "mode": "a"
+    },
+    "wall_seconds": 20,
+    "peak_memory_gb": 8
+  },
+  "candidate": {
+    "id": "synthetic-b",
+    "context": {
+      "model_revision": "synthetic-model-v1",
+      "workload_id": "synthetic-scene",
+      "hardware_id": "synthetic-device",
+      "runtime_revision": "synthetic-runtime-v1"
+    },
+    "factors": {
+      "mode": "b"
+    },
+    "wall_seconds": 10,
+    "peak_memory_gb": 4
+  }
+}
