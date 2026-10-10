@@ -5,11 +5,17 @@
       "model_revision": "synthetic-model-v1",
       "workload_id": "synthetic-scene",
       "hardware_id": "synthetic-device",
-      "runtime_revision": "synthetic-runtime-v1"
+      "runtime_revision": "synthetic-runtime-v1",
+      "wall_time_scope": "prompt execution through completed output",
+      "memory_metric": "peak resident memory",
+      "memory_scope": "isolated process",
+      "memory_unit": "GiB"
     },
     "factors": {
       "mode": "a"
     },
+    "completed": true,
+    "safety_passed": true,
     "wall_seconds": 20,
     "peak_memory_gb": 8
   },
@@ -19,11 +25,17 @@
       "model_revision": "synthetic-model-v1",
       "workload_id": "synthetic-scene",
       "hardware_id": "synthetic-device",
-      "runtime_revision": "synthetic-runtime-v1"
+      "runtime_revision": "synthetic-runtime-v1",
+      "wall_time_scope": "prompt execution through completed output",
+      "memory_metric": "peak resident memory",
+      "memory_scope": "isolated process",
+      "memory_unit": "GiB"
     },
     "factors": {
       "mode": "b"
     },
+    "completed": true,
+    "safety_passed": true,
     "wall_seconds": 10,
     "peak_memory_gb": 4
   }
